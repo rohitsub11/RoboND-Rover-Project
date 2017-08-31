@@ -147,7 +147,7 @@ def perception_step(Rover):
     dist, angles = to_polar_coords(xpix, ypix)
 
     Rover.nav_angles = angles
-    Rover.nav_dists = dist
+    #Rover.nav_dists = dist
 
     # do same for rocks
     rock = rocks(warped, levels=(110, 110, 50))
